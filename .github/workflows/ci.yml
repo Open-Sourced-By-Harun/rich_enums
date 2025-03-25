@@ -20,7 +20,7 @@ on:
 jobs:
   rspec-test:
     name: Run tests (ruby ${{ matrix.ruby }}, rails ${{ matrix.rails }})
-    runs-on: blacksmith-4vcpu-ubuntu-2204
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         include:
